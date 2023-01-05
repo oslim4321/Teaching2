@@ -1,0 +1,140 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: 359px;
+    height: 350px;
+    background-color: #ccce;
+    box-shadow: 2px 2px 15px grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.square{
+    position: absolute;
+    width: 10rem;
+    height: 10rem;
+    border: 1px solid black;
+    color: white;
+    animation: a0 2s infinite
+     /*  timing-function delay iteration-count direction fill-mode; */
+}
+
+#s0{
+    animation: a0 2s infinite;
+    border: 1px solid crimson;
+}
+@keyframes a0{
+    50%{
+        transform: rotate(180deg);
+        height: 2.5rem;
+        border-radius: 50%;
+    }
+}
+
+
+
+#s2{
+    animation: a1 2s infinite;
+    border: 1px solid green;
+
+}
+@keyframes a1{
+    50%{
+        transform: rotate(160deg);
+        height: 2.5rem;
+        border-radius: 50%;
+    }
+}
+
+#s3{
+    animation: a2 2s infinite;
+    border: 1px solid purple;
+
+}
+@keyframes a2{
+    50%{
+        transform: rotate(140deg);
+        height: 2.5rem;
+        border-radius: 50%;
+    }
+}
+
+#s4{
+    animation: a3 2s infinite;
+    border: 1px solid orange;
+
+}
+@keyframes a3{
+    50%{
+        transform: rotate(120deg);
+        height: 2.5rem;
+        border-radius: 50%;
+    }
+}
+
+#s5{
+    animation: a4 2s infinite;
+    border: 1px solid burlywood;
+
+}
+@keyframes a4{
+    50%{
+        transform: rotate(80deg);
+        height: 2.5rem;
+        border-radius: 50%;
+    }
+}
+
+#s6{
+    animation: a5 2s infinite;
+    border: 1px solid rgb(157, 20, 220);
+
+}
+@keyframes a5{
+    50%{
+        transform: rotate(60deg);
+        height: 2.5rem;
+        border-radius: 50%;
+    }
+}
+
+#s7{
+    animation: a6 2s infinite;
+    border: 1px solid rgb(220, 150, 20);
+
+}
+@keyframes a6{
+    50%{
+        transform: rotate(40deg);
+        height: 2.5rem;
+        border-radius: 50%;
+    }
+}
+
+#s8{
+    animation: a7 2s infinite
+}
+@keyframes a7{
+    50%{
+        transform: rotate(20deg);
+        height: 2.5rem;
+        border-radius: 50%;
+    }
+}
+
+#s9{
+    animation: a8 2s infinite
+}
+@keyframes a8{
+    50%{
+        transform: rotate(0deg);
+        height: 2.5rem;
+        border-radius: 50%;
+    }
+}
+
